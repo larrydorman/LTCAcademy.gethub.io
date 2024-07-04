@@ -148,11 +148,10 @@
     color: #125009;
     font-weight: 900;
   }
-}
-
-.nav-icon {
-  color: #125009;
-  font-size: 5rem;
+  .nav-icon {
+    color: #125009;
+    font-size: 5rem;
+  }
 }
 
 /* Below 704px (phones) */
@@ -216,5 +215,10 @@
 
   .passion-img-box::after {
     display: none;
+  }
+
+  .nav-icon {
+    color: #125009;
+    font-size: 5rem;
   }
 }

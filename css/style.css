@@ -148,7 +148,7 @@ body {
   align-items: center;
   justify-content: space-between;
   /* set height to make header sticky */
-  height: 9.6rem;
+  height: 11rem;
   padding: 0 4.8rem;
   position: relative;
 }
@@ -292,7 +292,7 @@ body {
 .contact-link:link,
 .contact-link:visited {
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: #767676;
   transition: all 0.3s;
 }

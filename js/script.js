@@ -18,7 +18,7 @@ btnNavEl.addEventListener("click", function () {
 // Smooth scrolling animation
 
 const allLinks = document.querySelectorAll(
-  "a.main-nav-link, a.anchor-logo, a.logo-link, a.btn"
+  "a.main-nav-link, a.anchor-logo, a.logo-link, a.btn, a.footer-about"
 );
 
 allLinks.forEach(function (link) {
