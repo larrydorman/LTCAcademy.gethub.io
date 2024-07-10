@@ -471,7 +471,7 @@ header div {
 }
 
 /*****************************/
-/* Steps for Admissiions section */
+/* Steps for Admissions section */
 /*****************************/
 
 .section-steps {
@@ -542,6 +542,26 @@ header div {
   font-weight: 600;
 }
 
+.step-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2em;
+  gap: 1em;
+}
+
+.step-link:link,
+.step-link:visited {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #767676;
+  font-weight: 500;
+}
+
+.step-link:hover,
+.step-link:active {
+  color: #00bcff;
+}
 /*****************************/
 /* Fees section */
 /*****************************/
@@ -672,7 +692,7 @@ footer
 
 .footer-link:hover,
 .footer-link:active {
-  color: #555;
+  color: #00bcff;
 }
 
 .footer-logo {
